@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>HTML Tutorials</title>
+</head>
+<body>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#html">HTML</a>
+    <a href="#dicas">Dicas</a>
+  </nav>
+
+  <div class="main-content">
+    <header>
+      <h1>HTML5 Tutorials</h1>
+      <div class="header-menu">
+        <a href="#home">Home</a>
+        <a href="#html">HTML</a>
+        <a href="#dicas">Dicas</a>
+      </div>
+    </header>
+
+    <section id="home">
+      <h2>Bem-vindo ao nosso tutorial!</h2>
+      <p>Aqui você aprendera o básico do HTML5 com explicações simples e exemplos práticos. Navegue pelas seções para começar a aprender agora mesmo.</p>
+      <article class="conteudo">
+        <h3>Por que aprender HTML5?</h3>
+        <p>Com HTML5, você pode criar sites modernos, acessíveis e interativos para divulgar sua marca ou para fins lucrativos.</p>
+      </article>
+      <aside class="conteudo">
+        <p><strong>Spoiler:</strong> Em breve no curso você aprendera a usar comandos(tags) para melhores layouts! como por exemplo: <code>&lt;article&gt;</code>, <code>&lt;aside&gt;</code> e <code>&lt;section&gt;</code></p>
+      </aside>
+      <hr>
+      <details class="conteudo">
+        <summary>Curiosidades!</summary>
+        <p>Além do HTML 5 você aprendera a utilizar tecnologias como: CSS, JavaScript e muito mais!.</p>
+      </details>
+    </section>
+
+    <section id="html">
+      <h2>O que é o HTML5?</h2>
+      <p>HTML5 é a versão mais recente da linguagem de marcação HTML. Com ela, podemos criar páginas web mais ricas e interativas.
+      <p>Exemplo básico da estrutura:</p>
+      <pre class="conteudo"><code>&lt;!DOCTYPE html&gt;
+        &lt;html&gt;
+        &lt;head&gt;
+            &lt;title&gt;Exemplo&lt;/title&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+            &lt;h1&gt;Olá, mundo!&lt;/h1&gt;
+        &lt;/body&gt;
+        &lt;/html&gt;</code></pre>
+    </section>
+
+    <section id="html">
+
+        <h2>Tags basicas!</h2>
+        <p class="conteudo">(Isso é um paragráfo!)</p>
+        <img class="conteudo" src="../HTML tutorials/img/p.png" alt="">
+
+        <h1 class="conteudo">(Isso é um cabeçalho 1!)</h1>
+        <img class="conteudo" src="../HTML tutorials/img/h1.png" alt="">
+
+        <h2 class="conteudo">(Isso é um cabeçalho 2!)</h2>
+        <img class="conteudo" src="../HTML tutorials/img/h2.png" alt="">
+
+        <h3 class="conteudo">(Isso é um cabeçalho 3!)</h3>
+        <img class="conteudo" src="../HTML tutorials/img/h3.png" alt="">
+
+        <h4 class="conteudo">(Isso é um cabeçalho 4!)</h4>
+        <img class="conteudo" src="../HTML tutorials/img/h4.png" alt="">
+
+        <h5 class="conteudo">(Isso é um cabeçalho 5!)</h5>
+        <img class="conteudo" src="../HTML tutorials/img/h5.png" alt="">
+
+        <h6 class="conteudo">(Isso é um cabeçalho 6!)</h6>
+        <img class="conteudo" src="../HTML tutorials/img/h6.png" alt="">
+
+        <h2 class="conteudo"><strong>(Isso é um texto negrito!)</strong></h2>
+        <img class="conteudo" style="width: 720px;" src="../HTML tutorials/img/strong.png" alt="">
+
+        <h2 class="conteudo">Isso é uma linha para divisão de conteúdo! &downarrow;</h2>
+        <hr class="conteudo">
+
+    </section>
+
+
+    <section id="html">
+        <h2>Exemplo de formulário:</h2>
+        <img src="../HTML tutorials/img/code.png"  style="width: 720px;" alt="">
+        <h2>Resultado:</h2>
+
+        <form class="conteudo">
+        <fieldset>
+          <legend>Formulário de exemplo</legend>
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome"><br><br>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email"><br><br>
+          <label for="mensagem">Mensagem:</label><br>
+          <textarea id="mensagem" name="mensagem"></textarea><br><br>
+          <button type="submit">Enviar</button>
+        </fieldset>
+      </form>
+
+    </section>
+
+    <section id="html">
+
+        <table class="conteudo" border="1">
+        <h2>Exemplo de tabela:</h2>
+        <img src="../HTML tutorials/img/form.png" style="height: 400px; width: 400px;" alt="">
+        <h2>Resultado: </h2>
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Ana</td>
+            <td>28</td>
+          </tr>
+          <tr>
+            <td>João</td>
+            <td>34</td>
+          </tr>
+        </tbody>
+      </table>
+
+    </section>
+
+    <section id="html">
+
+        <h2>Trabalhando com Listas</h2>
+      <p>HTML oferece dois tipos principais de listas: <strong>não ordenadas</strong> e <strong>ordenadas</strong>.</p>
+
+      <h3 class="conteudo">Lista Não Ordenada (<code>&lt;ul&gt;</code>)</h3>
+      <p>Usada quando a ordem dos itens não importa.</p>
+      <ul class="conteudo">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+      </ul>
+
+      <h3 class="conteudo">Lista Ordenada (<code>&lt;ol&gt;</code>)</h3>
+      <p>Usada quando a ordem é importante, como em passos de um tutorial.</p>
+      <ol class="conteudo">
+        <li>Instalar um editor de código</li>
+        <li>Aprender HTML básico</li>
+        <li>Estudar CSS e JavaScript</li>
+      </ol>
+
+      <p>Você também pode criar listas dentro de outras listas:</p>
+      <ul>
+        <li>Frontend
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+          </ul>
+        </li>
+        <li>Backend</li>
+      </ul>
+
+      <h2>Exemplo de <strong>Lista:</strong></h2>
+      <img src="../HTML tutorials/img/ul.form.png" style="height: 400px;" alt="">
+
+    </section>
+
+    <section id="dicas">
+      <h2>Dicas importantes</h2>
+      <ul>
+        <li>Use sempre a declaração <code>&lt;!DOCTYPE html&gt;</code> no início do documento.</li>
+        <li>Utilize elementos semânticos para melhorar a acessibilidade e SEO.</li>
+        <li>Organize seu código para facilitar a leitura e manutenção.</li>
+        <li>Combine HTML com CSS e JavaScript para páginas mais completas.</li>
+        <li>Use <code>&lt;mark&gt;</code> para destacar trechos importantes.</li>
+        <li>Utilize <code>&lt;time&gt;</code> para representar datas e horários.</li>
+        <li>Experimente <code>&lt;kbd&gt;</code> para mostrar comandos de teclado: <kbd>Ctrl + C</kbd></li>
+        <li>Use <code>&lt;code&gt;</code> e <code>&lt;samp&gt;</code> para blocos de código e saídas: <samp>Olá, mundo!</samp></li>
+      </ul>
+      <p>Exemplo de destaque com <mark>HTML5 é essencial para o futuro da web</mark>.</p>
+      <p>Postado em: <time datetime="2025-06-05">5 de junho de 2025</time></p>
+    </section>
+
+    <footer>
+      <p>Copyright ©️ 2024-2025 HTML tutorials<br>
+      Senai atualizado hoje por Kauã e Davi</p>
+    </footer>
+  </div>
+</body>
+</html>
